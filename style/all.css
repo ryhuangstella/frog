@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/*header-------------------*/
+.header {
+    position: fixed;
+    background-color: #fff ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.header-title {
+    font-size: 1.5rem;
+}       
+
+
+/* 導覽列 */
+.navbar {
+    /* background-color: blue; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 70px;
+}
+
+.navbar-nav {
+    /* display: inline; */
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    bottom: 100%;
+    top: auto;
+}
+
+.navbar-toggler {
+    /* display: none; */
+}
+
+
+
+/* news-------------------- */
+.news-picture {
+    width: 100%;
+    height: auto;
+}
+
+/* about------------------ */
+.about-img {
+    position:absolute;
+    clip:rect(20px 200px 100px 30px);
+}
